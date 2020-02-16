@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Playfair+Display:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Merriweather:300,400,700,900');
+
+html {
+  font-size: 18px;
+  line-height: 1.7em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+}
+
+
+body{
+  background: #eee;
+  height: 100%;
+  color: #555;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  letter-spacing: .2px;
+}
+
+h1, h2, h3, h4{
+   font-family: 'Merriweather', serif;
+   font-weight: 700;
+}
+
+
+hr {
+  height: 0;
+  margin-top: -1px;
+  margin-bottom: 24px;
+  padding-top: 24px;
+  border: 1px solid #ccc;
+  border-width: 0 0 1px;
+  clear: both;
+}
+
+.snippet .entry-header a:hover,
+.entry-meta a:hover,
+a:hover{
+  color: #1c7c7c;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+
+/*---content---*/
+
+.page-content{
+  margin: 0 auto;
+  padding: 40px;
+  background: #ffffff;
+  width: 100%;
+}
+
+
+.site-content{
+  word-break: break-word;
+}
+
+
+
+
+
+@media screen and (min-width:50em){
+  
+
+  .nav-menu{
+      display: block;
+  }
+
+  .nav-menu li{
+      display: inline-block;
+      position: relative;
+
+  }
+ 
+  .site-main,
+  .content-area{
+      float: none;
+      margin: 0;
+  }
+  
+  .content-area{
+    width: 100%;
+  }
+  
+ .entry-content h2{
+    font-size: 20px;
+    
+  }
+  
+
+
+}
+
+
+@media screen and (min-width:55em){
+  .page-content{
+      margin: 0 auto;
+      max-width: 850px;
+      padding: 60px 110px 75px;
+     
+  }
+}
+
+@media screen and (min-width:75em){
+  .page-content{
+      margin: 55px auto;
+     
+      
+  }
+}
